@@ -7,7 +7,7 @@ node {
     sh "git config --global user.email 'admin@example.com'"
     sh "git config --global user.name 'admin'"
     sh "git pull origin main"
-    app = docker.build("shryu/nginx")
+    app = docker.build("shryu.kr.ncr.ntruss.com/nginx")
   }
   stage('======== Push image ========') {
     docker.withRegistry('https://shryu.kr.ncr.ntruss.com', 'docker') {
@@ -18,7 +18,7 @@ node {
   stage('======== Update YAML file ========') {
     sh "git switch yaml"
     sh "git pull origin yaml"
-    sh "sed -i s%shryu/nginx:.*%shryu/nginx:${env.BUILD_NUMBER}%g nginx.yaml"
+    sh "sed -i s%shryu.kr.ncr.ntruss.com/nginx:.*%shryu.kr.ncr.ntruss.com/nginx:${env.BUILD_NUMBER}%g nginx.yaml"
     sh "cat nginx.yaml | grep image:"
     sh "git add ."
     sh "git commit -m 'image tag update ${env.BUILD_NUMBER}'"
