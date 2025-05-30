@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - image: nginx
-    name: nginx4
+    name: nginx5
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
