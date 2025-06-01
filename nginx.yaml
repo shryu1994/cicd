@@ -7,7 +7,7 @@ metadata:
   name: nginx
 spec:
   containers:
-  - image: shryu.kr.ncr.ntruss.com/nginx:24
+  - image: shryu.kr.ncr.ntruss.com/nginx:25
     name: nginx
     ports:
     - containerPort: 80
