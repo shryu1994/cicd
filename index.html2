@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>류승현 이력서2</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: none;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-header p {
+            margin: 4px 0;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .summary-table th, .summary-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .summary-table th {
+            background-color: #ecf0f1;
+            width: 120px;
+            font-weight: bold;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-badge {
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        .project {
+            background-color: #fafafa;
+            border: 1px solid #e0e0e0;
+            border-left: 5px solid #3498db;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .project h4 {
+            border-bottom: 1px solid #ccc;
+            color: #3498db;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .meta-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .as-is-to-be p {
+            margin-left: 15px;
+        }
+        .as-is-to-be strong {
+            display: inline-block;
+            width: 60px;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="profile-header">
+            <h1>류승현 [cite: 1, 31]</h1>
+            <p><strong>이메일:</strong> whr_mi@naver.com [cite: 1, 31] | <strong>휴대폰:</strong> 010-7322-3340 [cite: 1, 31]</p>
+            <p><strong>주소:</strong> (07751) 서울 강서구 초록마을로 [cite: 1, 31]</p>
+        </header>
+
+        <section class="section">
+            <table class="summary-table">
+                <tbody>
+                    <tr>
+                        <th>학력</th>
+                        <td>한림대학교 화학과, 대학교(4년) 졸업 [cite: 1, 31]</td>
+                    </tr>
+                    <tr>
+                        <th>총 경력</th>
+                        <td>4년 6개월 [cite: 1, 31]</td>
+                    </tr>
+                    <tr>
+                        <th>희망 연봉</th>
+                        <td>4,000~5,000만원 [cite: 1, 31]</td>
+                    </tr>
+                    <tr>
+                        <th>직전 연봉</th>
+                        <td>4,388만원 [cite: 1, 31]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>보유 스킬 [cite: 1, 31]</h2>
+            <div class="skills-container">
+                <span class="skill-badge">Kubernetes</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">NCP</span>
+                <span class="skill-badge">GitLab</span>
+                <span class="skill-badge">Jenkins</span>
+                <span class="skill-badge">ArgoCD</span>
+                <span class="skill-badge">Helm</span>
+                <span class="skill-badge">Jupyter</span>
+                <span class="skill-badge">Prometheus</span>
+                <span class="skill-badge">Grafana</span>
+                <span class="skill-badge">Ansible</span>
+                <span class="skill-badge">Terraform</span>
+                <span class="skill-badge">Apache Tomcat</span>
+                <span class="skill-badge">NGINX</span>
+                <span class="skill-badge">HAProxy</span>
+                <span class="skill-badge">Ubuntu</span>
+                <span class="skill-badge">CentOS</span>
+                <span class="skill-badge">Shell Script</span>
+                <span class="skill-badge">Keycloak</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">KT cloud SaaS DevOps</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>학력</h2>
+            <p><strong>한림대학교 (4년제)</strong> | 화학과 (2013.02 - 2020.02 졸업) [cite: 1, 31]</p>
+            <p class="meta-info">학점: 3.02/4.5 [cite: 2, 32]</p>
+            <p><strong>동북고등학교</strong> (2010.02 - 2013.02 졸업) [cite: 2, 32]</p>
+        </section>
+
+        <section class="section">
+            <h2>경력 (총 4년 6개월) [cite: 2, 32]</h2>
+            <p><strong>(주)아이티센클로잇</strong> | MSP 책임 3년차 클라우드 (2023.04 - 재직중) [cite: 2, 32]</p>
+            <p><strong>(주)아이티센엔텍</strong> | 클라우드 (2024.05 - 2025.03, 11개월) [cite: 2, 32]</p>
+            <p><strong>(주)클로잇</strong> | 클라우드 (2022.05 - 2023.04, 1년) [cite: 3, 33]</p>
+            <p><strong>(주)아이티센엔텍</strong> | 클라우드 (2022.01 - 2022.05, 5개월) [cite: 3, 33]</p>
+        </section>
+
+        <section class="section">
+            <h2>경력 기술서</h2>
+
+            <article class="project">
+                <h4>IBK 기업은행 클라우드 MSP 업무 [cite: 19, 49]</h4>
+                <p class="meta-info">2024.01 - 2025.02 | 역할: SRE 엔지니어 | 팀구성: 3인 (개발자 2인, 본인) [cite: 19, 49]</p>
+                <div class="as-is-to-be">
+                    <p><strong>AS-IS:</strong> CI/CD 환경이 이중화되지 않아 장애 발생 시 서비스 중단 위험 존재, 배포 프로세스가 자동화되지 않음. [cite: 19, 49]</p>
+                    <p><strong>TO-BE:</strong> CI/CD 환경 이중화 및 자동화 도입으로 배포 속도 50% 향상, 장애 발생 시 복구 시간 60% 단축. [cite: 20, 50]</p>
+                </div>
+                <h5>주요 성과</h5>
+                <ul>
+                    <li><strong>CI/CD 이중화:</strong> Jenkins, GitLab, Nexus의 Active/Standby 구성으로 서비스 중단 위험 감소. [cite: 21, 51]</li>
+                    <li><strong>배포 자동화:</strong> ArgoCD 기반 GitOps 방식 도입으로 배포 오류 30% 감소 [cite: 23, 53] 및 CI/CD 파이프라인 구축으로 배포 자동화율 90% 달성. [cite: 24, 54]</li>
+                    <li><strong>모니터링 및 보안:</strong> Istio, Prometheus/Grafana 도입으로 장애 탐지 시간 단축 [cite: 25, 55] 및 KeyCloak 연동으로 보안 정책 강화. [cite: 26, 56]</li>
+                    <li><strong>IaC 활용 백업:</strong> Terraform을 활용한 백업으로 장애 대응 체계 마련. [cite: 27, 57]</li>
+                    <li>NAS 기반 공유 디렉토리 및 백업 스크립트 도입으로 운영 안정성 80% 향상. [cite: 22, 52]</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h4>이크레더블 JupyterHub 기반 개발 환경 구축 [cite: 13, 43]</h4>
+                <p class="meta-info">2023.11 - 2024.01 | 역할: 개발 환경 구축 | 팀구성: 2인 (개발자, 본인) [cite: 13, 43]</p>
+                <div class="as-is-to-be">
+                    <p><strong>AS-IS:</strong> 사용자가 직접 Jupyter 환경을 구성해야 했으며, 확장성이 제한됨. [cite: 13, 43]</p>
+                    <p><strong>TO-BE:</strong> Kubernetes 기반 JupyterHub 구축으로 사용자별 독립된 개발 환경 제공 및 관리 효율성 향상. [cite: 14, 44]</p>
+                </div>
+                <h5>주요 성과</h5>
+                <ul>
+                    <li>Kubernetes 기반 Auto Scaling 도입으로 불필요한 인스턴스 비용 30% 절감. [cite: 15, 45]</li>
+                    <li>GitLab - ArgoCD CI/CD 자동화 구축으로 배포 시간 60% 단축. [cite: 16, 46]</li>
+                    <li>KeyCloak을 통한 SSO 연동으로 보안성 강화 및 계정 관리 편의성 80% 개선. [cite: 17, 47]</li>
+                    <li>Helm 기반 배포 자동화로 신규 개발 환경 구축 시간 80% 감소 (기존 5시간 → 1시간). [cite: 18, 48]</li>
+                </ul>
+            </article>
+            
+            <article class="project">
+                <h4>공공기관 클라우드 전환 사업 [cite: 8, 38]</h4>
+                <p class="meta-info">2022.11 - 2023.08 | 역할: 이관 작업 담당 | 팀구성: 2인 (PM, 본인) [cite: 8, 38]</p>
+                <div class="as-is-to-be">
+                    <p><strong>AS-IS:</strong> 기존 On-Premise 환경에서 유지보수 비용 증가 및 확장성 부족. [cite: 8, 38]</p>
+                    <p><strong>TO-BE:</strong> 클라우드 전환으로 인프라 확장성 확보, 운영 비용 30% 절감, 장애 복구 시간 95% 단축 (2시간 → 5분). [cite: 9, 39]</p>
+                </div>
+                <h5>주요 성과</h5>
+                <ul>
+                    <li>클라우드 환경 최적화(Auto Scaling, 로드 밸런싱)로 트래픽 처리 성능 40% 향상. [cite: 10, 40]</li>
+                    <li>Zabbix 기반 모니터링 구축으로 시스템 장애 탐지 속도 60% 개선. [cite: 11, 41]</li>
+                    <li>클라우드 환경 도입 후 서버 유지보수 비용 연간 30% 절감. [cite: 12, 42]</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h4>공공기관 사이트 동일 클라우드 내 VPC Zone 이관 작업 [cite: 3, 33]</h4>
+                <p class="meta-info">2022.05 - 2022.06 | 역할: 이관 작업 담당 | 팀구성: 4인 [cite: 3, 33]</p>
+                <div class="as-is-to-be">
+                    <p><strong>AS-IS:</strong> NCP Classic Zone의 서비스 지원 종료로 확장성 및 네트워크 성능 저하 문제 발생. [cite: 3, 33]</p>
+                    <p><strong>TO-BE:</strong> NCP VPC Zone으로 이관하여 보안성 및 확장성 강화, 네트워크 성능 개선. [cite: 4, 34]</p>
+                </div>
+                <h5>주요 성과</h5>
+                <ul>
+                    <li>ZConverter 도입으로 서버 마이그레이션 속도 50% 단축 (평균 6시간 → 3시간). [cite: 5, 35]</li>
+                    <li>작업 스케줄러를 통한 마이그레이션 자동화로 작업자 소요 시간 80% 단축. [cite: 6, 36]</li>
+                    <li>이전 후 네트워크 및 VPN 연결 최적화로 응답 속도 25% 향상. [cite: 6, 36]</li>
+                    <li>VPC 환경의 보안 그룹(Security Group) 적용으로 내부 시스템 접근 통제 강화 및 보안 사고 0건 유지. [cite: 7, 37]</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h4>공공기관 사이트 운영 및 장애 대응 [cite: 3, 33]</h4>
+                <p class="meta-info">2022.01 - 2024.03 | 역할: SRE 엔지니어 | 팀구성: 1인 [cite: 3, 33]</p>
+                <h5>담당 업무</h5>
+                <ul>
+                    <li>클라우드 자원 관리 및 최적화를 통한 비용 30% 감축 (월 300만원 → 월 200만원). [cite: 3, 33]</li>
+                    <li>모니터링을 통한 장애 대응 및 로그 분석 (운영 기간 동안 SLA 평가 '상' 유지). [cite: 3, 33]</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <section class="section">
+            <h2>자격/어학</h2>
+            <table class="summary-table">
+                <thead>
+                    <tr>
+                        <th>취득일</th>
+                        <th>자격/어학명</th>
+                        <th>발행처</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022.12 [cite: 29, 59]</td>
+                        <td>Certified Kubernetes Administrator (CKA) [cite: 29, 59]</td>
+                        <td>Linux Foundation [cite: 29, 59]</td>
+                    </tr>
+                    <tr>
+                        <td>2023.07 [cite: 29, 59]</td>
+                        <td>Certified Kubernetes Application Developer (CKAD) [cite: 29, 59]</td>
+                        <td>Linux Foundation [cite: 29, 59]</td>
+                    </tr>
+                    <tr>
+                        <td>2022.02 [cite: 29, 59]</td>
+                        <td>Naver Cloud Platform Certified Professional [cite: 29, 59]</td>
+                        <td>Naver Cloud Platform [cite: 29, 59]</td>
+                    </tr>
+                    <tr>
+                        <td>2020.11 [cite: 29, 59]</td>
+                        <td>자동차운전면허 [cite: 29, 59]</td>
+                        <td>경찰청(운전면허시험관리단) [cite: 29, 59]</td>
+                    </tr>
+                     <tr>
+                        <td>2025.03 [cite: 30, 60]</td>
+                        <td>TOEIC Speaking Test 120점 (Intermediate Mid 2) [cite: 30, 60]</td>
+                        <td>ETS [cite: 30, 60]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>
